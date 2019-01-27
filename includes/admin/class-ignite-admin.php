@@ -65,13 +65,13 @@ class Admin {
 	 */
 	public function admin_menu() {
 		add_menu_page( __( 'Ignite', 'ignite' ), __( 'Ignite', 'ignite' ), 'ignite_table', 'ignite', array( $this, 'ignite_callback' ));
-		add_submenu_page( 'ignite', __( 'Example Table Data', 'ignite' ), __( 'Example Table Data', 'ignite' ), 'ignite_table', 'ignite', array( $this, 'ignite_callback' ) );
+		add_submenu_page( 'ignite', __( 'Example Table Data', 'ignite' ), __( 'Example Table Data', 'ignite' ), 'ignite_table', 'ignite', array( $this, 'table_callback' ) );
 	}
 
 	/**
 	 * Callback outbox page.
 	 */
-	public function ignite_callback() {
+	public function table_callback() {
 		include_once IGNITE_ABSPATH . "includes/admin/table/class-ignite-table.php";
 
 		// Create an instance of our package class...
