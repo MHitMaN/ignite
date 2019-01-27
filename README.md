@@ -20,7 +20,7 @@ First of all [download](https://github.com/veronalabs/ignite/archive/master.zip)
 ### Plugin branding
 1. Change the folder name from `ignite-master` to `your-plugin-name`
 2. Change the `IGNITE_` defines name in all files.
-3. Change the `Ignite/\` namespaces in the files.
+3. Change the `Ignite/` namespaces in the files.
 
 ## Plugin folder structure
 ```
