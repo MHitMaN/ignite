@@ -25,19 +25,19 @@ First of all [download](https://github.com/veronalabs/ignite/archive/master.zip)
 ## Plugin folder structure
 ```
 ignite
-├── includes
-│   ├── admin
-│   │   ├── assets
-│   │   │   ├── admin.css
-│   │   │   └── admin.js
-│   │   └── Admin classes
-│   └── All classes
-├── public
-│   ├── assets
-│   │   ├── admin.css
-│   │   └── admin.js
-│   └── Public classes
-└── languages
+   ├── includes
+   │   ├── admin
+   │   │   ├── assets
+   │   │   │   ├── admin.css
+   │   │   │   └── admin.js
+   │   │   └── Admin classes
+   │   └── All classes
+   ├── public
+   │   ├── assets
+   │   │   ├── admin.css
+   │   │   └── admin.js
+   │   └── Public classes
+   └── languages
 ```
 
 ## Community
