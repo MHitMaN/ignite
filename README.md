@@ -1,5 +1,5 @@
 # [Ignite](https://veronalabs.com/products/)
-A WordPress Starter Plugin
+A WordPress Basic Starter Plugin
 
 ## Features
 * Best and Modern structure that used
